@@ -13,12 +13,13 @@ html {
 
 header {
     width: 100%; 
-    height: 20%;
-    padding: 20px 35px;
-    background-color: black;
+    height: 65vh;
+    padding: 20px 20px;
+    background-image: url(https://cdn.pixabay.com/photo/2020/10/12/09/15/technology-5648184_960_720.jpg);
+    background-size: cover;
+    background-position: center;    
     font-size: 2rem; 
-    display: inline-block;
-    color: rgb(120, 48, 187);
+    color: whitesmoke;
 }
 
 nav {
@@ -40,12 +41,19 @@ nav {
     padding: 10px 7px;
 }
 
-.logo {
-    width: 30vw;
-    height: 100px;
-    
+
+#icon {
+    margin-top: 50px;
+    margin-left: 40px;
+    display: flex;
 }
 
+header p {
+    font-size: 1.6rem;
+    padding: 10px;
+    padding-bottom: 15px;
+    text-align: justify;
+}
 /* hasta aqui es lo del header  */
 
 /* aqui ingresa todo lo del aside */
@@ -161,11 +169,9 @@ nav {
     font-size: 1.6rem;
     margin-top: 60px;
 }
-
 /* FINALIZA EL ASIDE */
 
 /* vamos a empezar el inner (section) */
-
 .inner {
     width: 100%;
     padding: 20px;
@@ -187,7 +193,7 @@ nav {
 }
 
 .button {
-    background-color: black;
+    background-color: transparent;
     padding: 5px 20px;
     margin-left: 10px;
     font-size: 3rem;
@@ -236,8 +242,22 @@ nav {
 .element {    
     padding: 10px; 
 }
-
-
-
 /* el inner finaliza aqui */
+/* se inicia el footer */
 
+footer {
+    width: 100%;
+    height: 12vh;
+    background-image: url(https://ak.picdn.net/shutterstock/videos/14268842/thumb/1.jpg);
+    background-position: bottom;
+    background-size: cover;
+    color: whitesmoke;
+    font-size: 1.6rem;
+}
+
+.credits {
+    padding: 22px 30px;
+}
+.copyrigth {
+    list-style: none;
+}
