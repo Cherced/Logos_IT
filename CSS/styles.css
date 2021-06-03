@@ -13,7 +13,7 @@ html {
 
 header {
     width: 100%; 
-    height: 65vh;
+    height: 65%;
     padding: 20px 20px;
     background-image: url(https://cdn.pixabay.com/photo/2020/10/12/09/15/technology-5648184_960_720.jpg);
     background-size: cover;
@@ -247,7 +247,7 @@ header p {
 
 footer {
     width: 100%;
-    height: 12vh;
+    height: 12%;
     background-image: url(https://ak.picdn.net/shutterstock/videos/14268842/thumb/1.jpg);
     background-position: bottom;
     background-size: cover;
