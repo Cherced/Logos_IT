@@ -55,12 +55,17 @@ header p {
     text-align: justify;
 }
 
+#shortcut {
+    text-align: right;
+}
+
 #shortcut li {
     margin-bottom: 10px;
+    display: inline-block;
 }
 /* hasta aqui es lo del header  */
 
-/* aqui ingresa todo lo del aside */
+/* aqui ingresa todo lo del aside, en resolusiones mayores de 600px, el contenido del aside toma un tamaño de 50% del width */
 .products {
     display: flex;
     flex-wrap: wrap;
@@ -70,9 +75,11 @@ header p {
     width: 100%;
     min-width: 150px;
     height: 150px;
+    padding: 10px;
 }
 
 #one {
+    width: 75%;
     background-image: url(https://bunkerdb.com/blog/wp-content/uploads/2020/07/Low-code-No-code.jpg) ;
     background-size: cover;    
     color: whitesmoke;
@@ -88,10 +95,11 @@ header p {
     position: static;
     text-align: center;
     font-size: 1.6rem;
-    margin-top: 60px;
+    margin-top: 60px; 
 }
 
 #two {
+    width: 25%;
     background-image: url(https://i1.wp.com/laesalud.com/wp-content/uploads/2016/05/big-data-sanitario-historia-clinica-esalud-ehealth.jpg?zoom=2.625&fit=1024%2C680&ssl=1);
     background-size: cover;
     background-repeat: no-repeat;
@@ -101,7 +109,7 @@ header p {
 #two h1{
     margin-top: 10px;
     font-size: 3rem;
-    text-align: center;
+    text-align: CENTER;
 }
 
 #two p{
@@ -113,6 +121,7 @@ header p {
         
         
 #three {
+    width: 100%;
     background-image: url(https://www.funkymk.com/wp-content/uploads/2019/05/hosting-seo-1.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -122,7 +131,7 @@ header p {
 #three h1 {
     margin-top: 10px;
     font-size: 3rem;
-    text-align: center;
+    text-align: CENTER;
 }
 
 #three p {
@@ -133,6 +142,7 @@ header p {
 }
 
 #four {
+    width: 25%;
     background-image: url(https://www.exevi.com/wp-content/uploads/2020/09/auditorias-de-ciberseguridad-tipos-escenarios-de-aplicacion-y-resultados-esperados.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -154,6 +164,7 @@ header p {
 
 
 #five {
+    width: 75%;
     background-image: url(https://www.hbfuller.com/-/media/images/connecting-what-matters/main-image_istock-848x493.jpg?h=493&iar=0&w=848&la=es-mx&hash=4D937320C3ACA88447D6E3DD4E0D2218);
     background-size: cover;
     background-repeat: no-repeat;
@@ -207,38 +218,43 @@ header p {
 }
 
 .contact {
+    width: 60%;
     padding-top: 30PX;
     font-size: 1.6rem;
-    text-align: left; 
-    font-size: 3rem; 
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap; 
+    flex-direction: row;
+    align-items: baseline; 
+    font-size: 3rem;
 }
 
-#name {
+label {
+    padding: 10px;
+}
+
+ .name {  
+    width: 50%;
     border-radius: 20px;
-    width: 100%;
-    height: 2.7em;
+    height: 2.7em;     
 }
 
-#email {
-    border-radius: 20px;
-    width: 100%;
-    height: 2.7em;
+.email { 
+    width: 50%;  
+    border-radius: 20px;  
+    height: 2.7em;     
 }
 
-#message {
-    border-radius: 20px;
-    width: 100%;
-    height: 20em;
-    margin-bottom: 10px;
+.message {        
+    width: 100%;    
 }
-
-
 
 .contactInfo {
+    width: 40%;
+    margin-top: 30px;
     background-color: black;
     font-size: 2rem;
     color: whitesmoke;
-    width: 100%;
     display: inline-block;
     text-align: center;
     padding: 10px; 
