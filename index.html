@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="https://image.flaticon.com/icons/png/512/1468/1468160.png">
-    <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="stylesheet" href="./CSS/styles.css" media="screen and (min-width:320px)">
+    <link rel="stylesheet" href="./CSS/tablet.css" media="screen and (min-width:600px)">
+    <link rel="stylesheet" href="./CSS/tablet+.css" media="screen and (min-width:800px)">
     <title>logos I.T</title>
 </head>
 <body>
@@ -25,12 +27,15 @@
                     <br> 
                     <p>SECURE DIGITAL INFRASTRUCTURE SERVICES HOSTED WITHIN COLOMBIA</p> 
                     <div id="shortcut"> 
-                        <br>                       
-                            <input class="button" type="submit" value="OUR SERVICES">                     
-                                        
+                    <ul>
+                        <li>
+                            <input class="button" type="submit" value="OUR SERVICES"> 
+                        </li>
+                        <li>
+                            <input class="button" type="submit" value="SIGN UP">   
+                        </li>
+                    </ul>                   
                     </div> 
-                    <br>
-                    <input class="button" type="submit" value="SIGN UP">                      
             </div>
     </header>
     <main class="news">        
@@ -45,7 +50,7 @@
             <p>IT AND DATA PROYECTS SERVICES FOR HEALTH AND RESEARCH SETTINGS</p>
         </div>
         <div id="three">
-            <H1>Web Hosting and Management</H1>
+            <H1>Web Hosting</H1>
             <P>COLOMBIAN MANAGED WEB HOSTING</P>
         </div>    
         <div id="four">
@@ -65,17 +70,17 @@
             <input class="button" type="submit" value="FIND OUT MORE">
         </div>
         <section class="contact">
-                <label for="name">
+                <label for="name" class="name">
                     <h1>NAME:</h1> 
                     <input type="text" name="name" id="name">
                 </label>
                 <br>            
-                <label for="email">
+                <label for="email" class="email">
                     <h1>EMAIL ADDRESS:</h1>                    
                     <input type="text" name="email" id="email">
                 </label>
                 <br>                
-                <label for="message">
+                <label for="message" class="message">
                     <h1>MESSAGE:</h1>
                     <input type="text" name="name" id="message">
                 </label>
@@ -102,7 +107,7 @@
     <footer>
         <div class="credits">
             <ul class="copyrigth">
-                <li>Pathos IT S.A.S</li>
+                <li>Logos IT S.A.S</li>
                 
                 <li>Design: CHERCED</li>
             </ul>
